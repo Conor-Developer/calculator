@@ -1,0 +1,124 @@
+* {
+    font-family: "Lexend Tera", sans-serif;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellowgreen;
+}
+
+.container {
+    width: 350px;
+    height: 550px;
+    background-color: #3A3B3C;
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.screen-container {
+    height: 100px;
+    padding: 15px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #D3D3D3;
+    flex: 1;
+}
+
+.screen {
+    color: white;
+    font-size: 50px;
+
+}
+
+.operators,
+.numbers {
+    background-color: grey;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    font-size: 40px;
+    width: 55px;
+    height: 55px;
+    justify-content: center;
+    margin: 1px;
+    align-items: center;
+    color: white;
+}
+
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+.lower-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+
+}
+
+.wide {
+    width: 120px;
+    border-radius: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.numbers.wide,
+.operators.wide {
+    justify-content: flex-start; 
+}
+
+.numbers:hover {
+    background-color: #B7B8B9;
+    color: black;
+}
+
+
+.operators:hover {
+    background-color: lightsalmon;
+    color: black;
+}
+
+.delete:hover {
+    background-color: lightcoral;
+}
+
+.equals:hover {
+    background-color:limegreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.lower-container :nth-child(8) { 
+    order: 2;
+}; */
+
+/* .lower-container :nth-child(8) { 
+    order: -2; }; */
+
+
+/* .lower-container :nth-child(2) { order: 2; };
+.lower-container :nth-child(3) { order: 3; }; */
