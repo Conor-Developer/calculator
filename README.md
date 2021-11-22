@@ -1,4 +1,4 @@
-A calculator with buttons for each digit, each of the basic math operators and an equals key.
+A calculator with buttons for each digit, the basic math operators, decimal point, backspace, delete and an equals key.
 
 I learned or improved the following skills:
 
