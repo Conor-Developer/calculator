@@ -1,12 +1,13 @@
+/* Universal font */
 * {
     font-family: "Lexend Tera", sans-serif;
 }
 
+/* Page to stretch to full screen size */
 html,
 body {
     height: 100%;
 }
-
 
 body {
     display: flex;
@@ -16,6 +17,7 @@ body {
     justify-content: space-between;
 }
 
+/* Container for calculator screen */
 .container {
     width: 350px;
     height: 550px;
@@ -46,6 +48,7 @@ body {
 
 }
 
+/* Keypad numbers and operators */
 .operators,
 .numbers {
     background-color: grey;
@@ -60,15 +63,16 @@ body {
     align-items: center;
     color: white;
     border: none;
+    outline: none;
 }
 
-
+/* Arrow (backspace) */
 img {
     max-height: 100%;
     max-width: 100%;
 }
 
-
+/* Container for the calculator keypad */
 .lower-container {
     display: flex;
     flex-wrap: wrap;
@@ -78,6 +82,7 @@ img {
 
 }
 
+/* Keypad buttons that are larger (e.g. "0" and "C" buttons */
 .wide {
     width: 160px;
     border-radius: 55px;
@@ -88,6 +93,7 @@ img {
     justify-content: flex-start; 
 }
 
+/* Change colour when mouse hovers keypad */
 .numbers:hover {
     background-color: #B7B8B9;
     color: black;
